@@ -5,10 +5,9 @@
     },
     "extends": [
         "eslint:recommended",
-        "next/core-web-vitals",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
-        "prettier"
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -23,5 +22,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "prettier/prettier": "error",
+        "react/react-in-jsx-scope": "off"
     }
 }
