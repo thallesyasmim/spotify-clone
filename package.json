@@ -53,6 +53,7 @@
     "@next/eslint-plugin-next": "^12.1.5",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.1",
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
     "@typescript-eslint/eslint-plugin": "^5.19.0",
