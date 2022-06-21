@@ -5,7 +5,7 @@
   "private": true,
   "homepage": "https://github.com/thallesyasmim/spotify-clone#readme",
   "main": "index.js",
-  "license": "GPL-3.0-or-later",
+  "license": "GPL-3.0",
   "keywords": [
     "docker",
     "dockerfile",
