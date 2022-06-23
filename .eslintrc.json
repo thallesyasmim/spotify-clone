@@ -2,13 +2,15 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "jest": true
+        "jest": true,
+        "cypress/global": true
     },
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:prettier/recommended",
+        "plugin:cypress/recommended",
         "next"
     ],
     "parser": "@typescript-eslint/parser",
@@ -21,6 +23,7 @@
     },
     "plugins": [
         "react",
+        "cypress",
         "@typescript-eslint"
     ],
     "rules": {
